@@ -26,7 +26,6 @@ You can ignore this space. The following snippet is used to generate the recipe 
     return digest.map { String(format: "%02x", $0) }.joined()
   }
 
-  // Usage example
   if let url = URL(string: "https://github.com/xenodium/macosrec/archive/refs/tags/macosrec-0.7.1.tar.gz") {
     if let shaHash = sha256HashForURL(url) {
       print("SHA-256 hash: \(shaHash)")
