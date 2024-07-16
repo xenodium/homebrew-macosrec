@@ -7,7 +7,7 @@ This is the Homebrew recipe for [[https://github.com/xenodium/macosrec][macosrec
 #+end_src
 
 * Hashing
-You can ignore this space. The following snippet is used to generate the recipe hash.
+You can ignore this space. The following snippet is used to generate the recipe hash from via [[https://orgmode.org/worg/org-contrib/babel/][org babel]].
 
 #+begin_src swift
   import CommonCrypto
